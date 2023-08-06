@@ -5,7 +5,7 @@ using DuckSimulator.Model;
 namespace DuckSimulator;
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
         Duck mallardDuck = new MallardDuck();
         Duck redheadDuck = new RedheadDuck();

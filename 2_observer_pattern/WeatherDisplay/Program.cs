@@ -3,13 +3,13 @@
 namespace WeatherDisplay;
 
 class Program{
-    static void Main(string[] args)
+    static void Main()
     {
-        WeatherData weatherData = new WeatherData();
+        WeatherData weatherData = new();
         
-        CurrentConditionsDisplay currentDisplay = new CurrentConditionsDisplay(weatherData);
-        StatisticDisplay statisticDisplay = new StatisticDisplay(weatherData);
-        ForeCastDisplay foreCastDisplay = new ForeCastDisplay(weatherData);
+        _ = new CurrentConditionsDisplay(weatherData);
+        _ = new StatisticDisplay(weatherData);
+        _ = new ForeCastDisplay(weatherData);
 
         weatherData.Temperature = 80;
         weatherData.Humidity = 65;
