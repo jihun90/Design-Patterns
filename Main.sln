@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DuckSimulator", "1_strategy_pattern\DuckSimulator\DuckSimulator.csproj", "{53AD5DFC-FED5-4347-BBDF-D0072EAC0CF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherDisplay", "2_observer_patterun\WeatherDisplay\WeatherDisplay.csproj", "{3B6F2F49-AB69-4CC9-BD53-4237FCD0AA1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherDisplay", "2_observer_pattern\WeatherDisplay\WeatherDisplay.csproj", "{3B6F2F49-AB69-4CC9-BD53-4237FCD0AA1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
