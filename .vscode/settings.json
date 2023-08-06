@@ -1,4 +1,0 @@
-{
-    "dotnet.defaultSolution": "1_strategy_patterun/DuckSimulator/DuckSimulator.sln",
-    "nuget.autoOpenOutputWindowOnRestore": "off"
-}
