@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3_decorator_pattern", "3_de
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cafe", "3_decorator_pattern\Cafe\Cafe.csproj", "{81BCF890-EB9D-4C69-9E2F-2E9631D1316B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4_factory_pattern", "4_factory_pattern", "{BF2786A2-0B12-4328-9B48-4221C0BB2027}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStore", "4_factory_pattern\PizzaOrderingSystem\PizzaOrderingSystem.csproj", "{256DFDDB-ABEB-4034-AC4D-5480E651647E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{81BCF890-EB9D-4C69-9E2F-2E9631D1316B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81BCF890-EB9D-4C69-9E2F-2E9631D1316B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81BCF890-EB9D-4C69-9E2F-2E9631D1316B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{256DFDDB-ABEB-4034-AC4D-5480E651647E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{256DFDDB-ABEB-4034-AC4D-5480E651647E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{256DFDDB-ABEB-4034-AC4D-5480E651647E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{256DFDDB-ABEB-4034-AC4D-5480E651647E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,5 +50,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{81BCF890-EB9D-4C69-9E2F-2E9631D1316B} = {684DE95B-9502-4480-9D96-D95D81327E6D}
+		{256DFDDB-ABEB-4034-AC4D-5480E651647E} = {BF2786A2-0B12-4328-9B48-4221C0BB2027}
 	EndGlobalSection
 EndGlobal

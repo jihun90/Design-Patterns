@@ -1,0 +1,2 @@
+ - PizzaFactory는 팩토리 메서드 패턴
+ - IndegredentFactory는 추상 팩토리 패턴
