@@ -15,6 +15,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4_factory_pattern", "4_fact
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStore", "4_factory_pattern\PizzaOrderingSystem\PizzaOrderingSystem.csproj", "{256DFDDB-ABEB-4034-AC4D-5480E651647E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5_singletone_pattern", "5_singletone_pattern", "{6D42F573-5469-469C-AB19-98B27AB5BF20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chocolate", "Chocolate", "{51AFCAE9-F0D9-4E7D-95AE-D3668387EAB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chocolate", "5_singletone_pattern\Chocolate\Chocolate\Chocolate.csproj", "{421028EC-A16B-4D4C-B394-1DFE210B4D75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +47,10 @@ Global
 		{256DFDDB-ABEB-4034-AC4D-5480E651647E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{256DFDDB-ABEB-4034-AC4D-5480E651647E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{256DFDDB-ABEB-4034-AC4D-5480E651647E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{421028EC-A16B-4D4C-B394-1DFE210B4D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421028EC-A16B-4D4C-B394-1DFE210B4D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421028EC-A16B-4D4C-B394-1DFE210B4D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421028EC-A16B-4D4C-B394-1DFE210B4D75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,5 +61,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{81BCF890-EB9D-4C69-9E2F-2E9631D1316B} = {684DE95B-9502-4480-9D96-D95D81327E6D}
 		{256DFDDB-ABEB-4034-AC4D-5480E651647E} = {BF2786A2-0B12-4328-9B48-4221C0BB2027}
+		{51AFCAE9-F0D9-4E7D-95AE-D3668387EAB1} = {6D42F573-5469-469C-AB19-98B27AB5BF20}
+		{421028EC-A16B-4D4C-B394-1DFE210B4D75} = {51AFCAE9-F0D9-4E7D-95AE-D3668387EAB1}
 	EndGlobalSection
 EndGlobal
