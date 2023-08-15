@@ -14,10 +14,7 @@ public class ChocolateBoiler
 
     public static ChocolateBoiler GetInstance()
     {
-        if (lazyInstance == null) 
-        {
-            lazyInstance = new Lazy<ChocolateBoiler>(() => new ChocolateBoiler());
-        }
+        lazyInstance ??= new Lazy<ChocolateBoiler>(() => new ChocolateBoiler());
 
         return lazyInstance.Value;
     }
